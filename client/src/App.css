@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.repos-manager-container {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  width: 80%;
+  margin-top: -50px;
+  margin-left: -41.3%;
+  max-height: 600px;
+  margin-bottom: 40px;
+}
+.search {
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+}
+
+.repos-result {
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
+.result-container {
+  padding: 20px 0;
+  border-radius: 15px;
+}
