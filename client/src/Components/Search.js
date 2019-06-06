@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { Button, Col, Form, Input, InputGroup, InputGroupAddon } from 'reactstrap'
 
 import { fetch } from '../api'

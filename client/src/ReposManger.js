@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import { ReposList } from './Components/ReposList'
 import Search from './Components/Search'
 
-import { Alert, Modal, ModalHeader, ModalBody } from 'reactstrap'
+import { Alert } from 'reactstrap'
 
 export default class ReposMangerView extends Component {
   constructor() {
