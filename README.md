@@ -1,4 +1,3 @@
 # da-github-tree
 
-simple app for listing github reposotories 
-nodejs, koa, react
+simple app for listing github reposotories using nodejs, koa, react
