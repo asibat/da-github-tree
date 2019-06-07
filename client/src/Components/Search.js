@@ -19,6 +19,7 @@ class Search extends Component {
   onChange(e) {
     this.setState({ [e.target.name]: e.target.value })
   }
+
   async onSubmit(e) {
     e.preventDefault()
 
@@ -27,8 +28,15 @@ class Search extends Component {
       this.props.loadRepos(true)
       return
     }
+    this.props.loadActivity(true)
     const repos = await fetch(token)
-    !repos ? this.props.loadRepos(true, repos) : this.props.loadRepos(false, repos)
+
+    if (!repos) {
+      this.props.loadRepos(true)
+    } else {
+      this.props.loadActivity(false)
+      this.props.loadRepos(false, repos)
+    }
   }
 
   render() {
