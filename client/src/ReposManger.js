@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import { ReposList } from './Components/ReposList'
+import ReposList from './Components/ReposList'
 import Search from './Components/Search'
 
 import { Alert, Spinner } from 'reactstrap'
